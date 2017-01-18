@@ -15,6 +15,17 @@
 		9D13EFA01E2F65380070EB6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D13EF9E1E2F65380070EB6C /* LaunchScreen.storyboard */; };
 		9D13EFAB1E2F65380070EB6C /* BombTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D13EFAA1E2F65380070EB6C /* BombTestTests.m */; };
 		9D13EFB61E2F65380070EB6C /* BombTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D13EFB51E2F65380070EB6C /* BombTestUITests.m */; };
+		9D13EFC41E2F65E30070EB6C /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFC31E2F65E30070EB6C /* BmobSDK.framework */; };
+		9D13EFC71E2F67130070EB6C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFC61E2F67130070EB6C /* CoreLocation.framework */; };
+		9D13EFC91E2F671E0070EB6C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFC81E2F671E0070EB6C /* Security.framework */; };
+		9D13EFCB1E2F67290070EB6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFCA1E2F67290070EB6C /* CoreGraphics.framework */; };
+		9D13EFCD1E2F67320070EB6C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFCC1E2F67320070EB6C /* MobileCoreServices.framework */; };
+		9D13EFCF1E2F673C0070EB6C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFCE1E2F673C0070EB6C /* CFNetwork.framework */; };
+		9D13EFD11E2F67450070EB6C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFD01E2F67450070EB6C /* CoreTelephony.framework */; };
+		9D13EFD31E2F674E0070EB6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFD21E2F674E0070EB6C /* SystemConfiguration.framework */; };
+		9D13EFD51E2F675A0070EB6C /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFD41E2F675A0070EB6C /* libz.1.2.5.tbd */; };
+		9D13EFD71E2F67670070EB6C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFD61E2F67670070EB6C /* libicucore.tbd */; };
+		9D13EFD91E2F67700070EB6C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D13EFD81E2F67700070EB6C /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		9D13EFB11E2F65380070EB6C /* BombTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BombTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D13EFB51E2F65380070EB6C /* BombTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BombTestUITests.m; sourceTree = "<group>"; };
 		9D13EFB71E2F65380070EB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D13EFC31E2F65E30070EB6C /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		9D13EFC61E2F67130070EB6C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9D13EFC81E2F671E0070EB6C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9D13EFCA1E2F67290070EB6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D13EFCC1E2F67320070EB6C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9D13EFCE1E2F673C0070EB6C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9D13EFD01E2F67450070EB6C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9D13EFD21E2F674E0070EB6C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9D13EFD41E2F675A0070EB6C /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		9D13EFD61E2F67670070EB6C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		9D13EFD81E2F67700070EB6C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D13EFD91E2F67700070EB6C /* libsqlite3.tbd in Frameworks */,
+				9D13EFD71E2F67670070EB6C /* libicucore.tbd in Frameworks */,
+				9D13EFD51E2F675A0070EB6C /* libz.1.2.5.tbd in Frameworks */,
+				9D13EFD31E2F674E0070EB6C /* SystemConfiguration.framework in Frameworks */,
+				9D13EFD11E2F67450070EB6C /* CoreTelephony.framework in Frameworks */,
+				9D13EFCF1E2F673C0070EB6C /* CFNetwork.framework in Frameworks */,
+				9D13EFCD1E2F67320070EB6C /* MobileCoreServices.framework in Frameworks */,
+				9D13EFCB1E2F67290070EB6C /* CoreGraphics.framework in Frameworks */,
+				9D13EFC91E2F671E0070EB6C /* Security.framework in Frameworks */,
+				9D13EFC71E2F67130070EB6C /* CoreLocation.framework in Frameworks */,
+				9D13EFC41E2F65E30070EB6C /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +118,7 @@
 				9D13EFA91E2F65380070EB6C /* BombTestTests */,
 				9D13EFB41E2F65380070EB6C /* BombTestUITests */,
 				9D13EF8E1E2F65380070EB6C /* Products */,
+				9D13EFC51E2F67130070EB6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				9D13EF911E2F65380070EB6C /* main.m */,
+				9D13EFC31E2F65E30070EB6C /* BmobSDK.framework */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +173,23 @@
 				9D13EFB71E2F65380070EB6C /* Info.plist */,
 			);
 			path = BombTestUITests;
+			sourceTree = "<group>";
+		};
+		9D13EFC51E2F67130070EB6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D13EFD81E2F67700070EB6C /* libsqlite3.tbd */,
+				9D13EFD61E2F67670070EB6C /* libicucore.tbd */,
+				9D13EFD41E2F675A0070EB6C /* libz.1.2.5.tbd */,
+				9D13EFD21E2F674E0070EB6C /* SystemConfiguration.framework */,
+				9D13EFD01E2F67450070EB6C /* CoreTelephony.framework */,
+				9D13EFCE1E2F673C0070EB6C /* CFNetwork.framework */,
+				9D13EFCC1E2F67320070EB6C /* MobileCoreServices.framework */,
+				9D13EFCA1E2F67290070EB6C /* CoreGraphics.framework */,
+				9D13EFC81E2F671E0070EB6C /* Security.framework */,
+				9D13EFC61E2F67130070EB6C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +259,7 @@
 				TargetAttributes = {
 					9D13EF8C1E2F65380070EB6C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WHZ86RVEU3;
 						ProvisioningStyle = Automatic;
 					};
 					9D13EFA51E2F65380070EB6C = {
@@ -424,6 +477,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WHZ86RVEU3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BombTest",
+				);
 				INFOPLIST_FILE = BombTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lengleng.BombTest;
@@ -435,6 +493,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WHZ86RVEU3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BombTest",
+				);
 				INFOPLIST_FILE = BombTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lengleng.BombTest;

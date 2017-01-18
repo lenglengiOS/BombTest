@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <BmobSDK/Bmob.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [Bmob registerWithAppKey:@"670b4c993dfe89f32bbec466937a5f45"];
+    
+    //查找GameScore表
+    BmobQuery   *bquery = [BmobQuery queryWithClassName:@"GameScore"];
+    //查找GameScore表里面id为0c6db13c的数据
+    [bquery getObjectInBackgroundWithId:@"2f3ebfae66" block:^(BmobObject *object,NSError *error){
+        if (error){
+            //进行错误处理
+            NSLog(@"%@", error);
+        }else{
+            //表里有id为0c6db13c的数据
+            if (object) {
+                //得到playerName和cheatMode
+                NSString *playerName = [object objectForKey:@"playerName"];
+                BOOL cheatMode = [[object objectForKey:@"cheatMode"] boolValue];
+                NSLog(@"%@----%i",playerName,cheatMode);
+            }
+        }
+    }];
+    
     return YES;
 }
 
